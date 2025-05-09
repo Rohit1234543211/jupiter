@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+}
+
+form input {
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+button {
+    transition: background-color 0.3s;
+}
+
+#message {
+    font-weight: 500;
+}
